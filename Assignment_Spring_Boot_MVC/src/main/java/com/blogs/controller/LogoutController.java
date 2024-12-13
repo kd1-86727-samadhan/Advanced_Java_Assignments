@@ -13,7 +13,7 @@ public class LogoutController {
 	private UserService userService;
 
 	@RequestMapping("/logout")
-	public String renderLogout(Model map)
+	public String renderLogout()
 	{
 		return "/login";
 	}
